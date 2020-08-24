@@ -179,10 +179,8 @@ body {
   height: 600px;
   margin-left: auto;
   margin-right: auto;
-  background-image: linear-gradient(
-      rgba(47, 48, 58, 0.4) 0%,
-      rgba(47, 48, 58, 0.4) 100%
-    ),
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4) 0%,
+      rgba(47, 48, 58, 0.4) 100%),
     url("../images/hero.jpg");
   background-color: black;
   background-size: cover;
@@ -329,6 +327,7 @@ textarea {
   box-sizing: border-box;
   border-radius: 4px;
 }
+
 .form-label {
   width: 100%;
 }
@@ -370,8 +369,8 @@ textarea {
   outline-color: var(--first-text-accent-color);
 }
 
-.form-input:hover + .form-icon,
-.form-input:focus + .form-icon {
+.form-input:hover+.form-icon,
+.form-input:focus+.form-icon {
   fill: var(--first-text-accent-color);
 }
 
@@ -417,7 +416,7 @@ textarea {
   overflow: hidden;
 }
 
-.checkbox-input:checked ~ .custom-checkbox {
+.checkbox-input:checked~.custom-checkbox {
   border-color: var(--first-text-accent-color);
   background-image: url("../images/checkbox.svg");
   background-color: var(--first-text-accent-color);
@@ -766,7 +765,7 @@ address {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   border: none;
- position: relative; 
+}
 
 .button-footer::after {
   display: inline-block;
